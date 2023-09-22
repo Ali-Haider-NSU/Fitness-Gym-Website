@@ -1,0 +1,576 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Navigation part Start */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    margin-left: 100px;
+}
+
+.logo img {
+    width: 75px;
+    height: 75px;
+}
+
+.ul-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.li-parent {
+    margin-left: 75px;
+}
+
+.li-parent ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.li-parent ul li {
+    list-style-type: none;
+    padding: 0 30px;
+}
+
+.li-parent ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.input-parent {
+    margin-right: 150px;
+}
+
+.input-parent input {
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.input-parent input:first-child {
+    border-radius: 30px 0 0 30px;
+    border: 1px solid black;
+    font-size: 18px;
+    text-align: center;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.input-parent input:nth-child(2) {
+    border-radius: 0 30px 30px 0;
+    background-color: #080D35;
+    color: white;
+    margin-left: -5px;
+    font-size: 18px;
+    text-align: center;
+    width: 150px;
+    border: none;
+    padding-top: 10.5px;
+    padding-bottom: 11px;
+}
+
+
+/* Header Section Start */
+
+header {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, .8), rgba(0, 0, 0, .6), rgba(0, 0, 0, .4), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1)), url('images/fitness.jpg');
+    background-repeat: no-repeat;
+    background-size: 125% 135%;
+    background-position: center;
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+
+.header-title {
+    width: 600px;
+    padding-top: 150px;
+    padding-left: 100px;
+}
+
+.header-title h2 {
+    color: white;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header-title p {
+    color: white;
+    padding: 50px 0;
+    word-spacing: 2px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.header-input {
+    margin-left: 100px;
+}
+
+.header-input input {
+    width: 250px;
+    height: 45px;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 25px;
+    background-color: #ffffff00;
+    color: #B42B90;
+    border: 2px solid #B42B90;
+}
+
+
+/* Section one start */
+
+#section1 {
+    background-color: #EFEFEF;
+}
+
+.section1-title h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+
+.section1-title p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: #333333;
+}
+
+.section1-icon-parent {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 0;
+    margin: auto 150px;
+    padding-top: 70px;
+}
+
+.section1-singlebox {
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section1-singlebox p {
+    padding: 15px 0;
+}
+
+
+/* Section Two Start */
+
+.section2-title h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 75px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    padding-bottom: 12px;
+}
+
+.section2-title p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #333333;
+    line-height: 5px;
+}
+
+.section2-title p span {
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px 3px;
+}
+
+
+/* Section Two Start  */
+
+.section2-card-parent {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 200px;
+}
+
+.section2-single-parent {
+    width: 350px;
+    border: 2px solid #CCCCCC;
+    border-radius: 25px;
+    height: 650px;
+}
+
+.section2-single-inner-title {
+    height: 100px;
+    background-color: #DDDDDD;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px 25px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section2-itag {
+    padding: 25px 20px;
+}
+
+.section2-itag-iner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    padding: 25px 0;
+}
+
+.section2-itag-iner i {
+    font-size: 25px;
+    color: #b4b2b2;
+    padding: 0 20px;
+}
+
+.section2-itag-iner p {
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 10px;
+    color: #b4b2b2;
+}
+
+.icon i {
+    color: #B42B90;
+}
+
+.icon p {
+    color: #000000;
+}
+
+.section2-single-parent h4 {
+    font-size: 20px;
+    padding: 50px 0;
+    text-align: center;
+    color: #969292;
+}
+
+.section2-single-parent h4 span {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.section2-single-parent input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #8D2C85;
+    color: #8D2C85;
+    margin: 0 auto;
+}
+
+.color-grad {
+    background: linear-gradient(to right, #400230, #570E44, #701C5A, #8A2A71);
+    color: #FFFFFF;
+}
+
+.last-btn input {
+    background: linear-gradient(to right, #400230, #570E44, #701C5A, #8A2A71);
+    color: #FFFFFF;
+}
+
+
+/* Section Three Start */
+
+#section3 {
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, .9), rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.7), rgba(0, 0, 0, .6), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.1)), url('images/workout.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    /* margin: 0 100px; */
+    /* border-radius: 15px; */
+}
+
+.section3-parent {
+    margin-left: 100px;
+    margin-top: -30px;
+    padding-top: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section3-parent h2 {
+    padding-bottom: 35px;
+    color: white;
+    font-size: 30px;
+}
+
+.section3-parent p {
+    line-height: 24px;
+    width: 550px;
+    color: white;
+}
+
+.section3-parent input {
+    width: 200px;
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 40px 0;
+    border-radius: 20px;
+    text-align: center;
+    border: none;
+    background-color: #8D2C74;
+    color: white;
+}
+
+
+/* Section Four Start */
+
+#section4 {
+    background-color: #EFEFEF;
+    position: relative;
+}
+
+.section4-element-parent {
+    padding: 100px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.section4-child1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.section4-child1 h2 {
+    padding-bottom: 20px;
+}
+
+.section4-icon h1 {
+    color: #8D2C74;
+    padding-top: 50px;
+    font-size: 50px;
+}
+
+.section4-icon i {
+    color: #8D2C74;
+    padding-bottom: 10px;
+}
+
+.section4-icon p {
+    font-size: 14px;
+}
+
+.section4-icon h4 a {
+    color: #080D35;
+}
+
+.section4-icon h4 {
+    margin: 15px 0;
+}
+
+.section4-child2 {
+    position: relative;
+}
+
+.p1 {
+    position: absolute;
+    left: 350px;
+}
+
+.p2 {
+    position: absolute;
+    left: 250px;
+}
+
+.p3 {
+    position: absolute;
+    left: 50px;
+}
+
+.p4 {
+    position: absolute;
+    left: 430px;
+}
+
+.section4-child2 .p1 {
+    background-color: #FFFFFF;
+    padding: 10px 0;
+    width: 430px;
+    font-size: 14px;
+    font-style: italic;
+    text-align: center;
+    border-radius: 12px;
+    position: relative;
+}
+
+.section4-child2 .p1 span {
+    font-size: 30px;
+    font-weight: bold;
+    align-items: center;
+    color: #8D2C74;
+    position: absolute;
+    left: 35px;
+}
+
+.section4-child2 .p2 {
+    background-color: #FFFFFF;
+    padding: 13px 0;
+    width: 530px;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    border-radius: 18px;
+    position: relative;
+}
+
+.section4-child2 .p2 span {
+    font-size: 40px;
+    font-weight: bold;
+    align-items: center;
+    color: #8D2C74;
+    position: absolute;
+    left: 30px;
+    top: 8px;
+}
+
+.section4-child2 .p3 {
+    background-color: #8D2C74;
+    padding: 25px 0;
+    width: 730px;
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    border-radius: 25px;
+    position: relative;
+    color: white;
+}
+
+.section4-child2 .p3 span {
+    font-size: 50px;
+    font-weight: bold;
+    align-items: center;
+    color: white;
+    position: absolute;
+    left: 30px;
+    top: 17px;
+}
+
+.section4-child2 .p4 {
+    background-color: #FFFFFF;
+    padding: 13px 0;
+    width: 350px;
+    font-size: 16px;
+    font-style: italic;
+    text-align: center;
+    border-radius: 18px;
+    position: relative;
+}
+
+.section4-child2 .p4 span {
+    font-size: 35px;
+    font-weight: bold;
+    align-items: center;
+    color: #8D2C74;
+    position: absolute;
+    left: 30px;
+    top: 11px;
+}
+
+.all-parent {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.section4-child3 {
+    position: relative;
+}
+
+.section4-child3 i:first-child {
+    color: #CCCCCC;
+    font-size: 12px;
+    transform: scaleY(30);
+    position: absolute;
+    top: 165px;
+}
+
+.section4-child3 i:last-child {
+    color: #8D2C74;
+    font-size: 20px;
+    transform: scaleY(3);
+    position: absolute;
+    top: 160px;
+    right: -15px;
+}
+
+
+/* Footer Section Start */
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 150px;
+    background-color: #0B1112;
+    height: 200px;
+}
+
+.footer-right-part {
+    margin-right: 0;
+    justify-content: space-around;
+}
+
+.single-footer {
+    float: left;
+    width: 230px;
+    color: white;
+    padding-left: 70px;
+}
+
+.single-footer h4 {
+    color: #8D2C74;
+    padding-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+
+.single-footer p {
+    font-size: 15px;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-left-part h2 {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8D2C74;
+    margin-left: 5px;
+}
+
+.footer-left-part img {
+    height: 50px;
+    margin: 15px 0;
+}
+
+.footer-left-part p {
+    color: white;
+    margin: 72px 5px;
+}
